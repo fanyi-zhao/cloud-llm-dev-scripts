@@ -3,6 +3,9 @@
 **Instant setup for cloud-based LLM development.**  
 Skip the environment configuration and start coding and testing in seconds.
 
+
+**Supported Systems**: Debian/Ubuntu Linux (x86_64)
+
 ## ⚡ Quick Start
 
 ### SGLang (with Mooncake & Router)
