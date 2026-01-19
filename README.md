@@ -14,7 +14,9 @@ source init_sglang_git.sh
 *See [SGLang Cookbook](sglang/SGLANG_COOKBOOK.md) for single-node and distributed launch instructions.*
 
 ### AWS S3
-Configures AWS CLI and credentials securely.
+**Stop paying rent for empty GPU instances.**  
+Cloud providers charge for attached storage even when your instance is paused. Don't let your 500GB model checkpoints drain your wallet while you sleep. Offload everything to S3—it’s dirt cheap, infinite, and this script connects you in seconds.
+
 ```bash
 export AWS_ACCESS_KEY=your_key
 export AWS_SECRET_KEY=your_secret
