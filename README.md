@@ -100,6 +100,8 @@ The web interface will be accessible at `http://localhost:8080` (port may vary).
 
 ## Quick Start
 
+Before running the scripts, ensure you grant them execute permissions: `chmod 755 ./*.sh`
+
 ### Setup SGLang + Open WebUI
 #### Terminal 1 - Initialize and Start SGLang in Cloud:
 ```bash
